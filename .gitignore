@@ -1,0 +1,22 @@
+# Secrets: never commit your real API key
+.env
+.env.*
+!.env.example
+
+# Local data: saved chat sessions live here
+data/
+*.db
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
