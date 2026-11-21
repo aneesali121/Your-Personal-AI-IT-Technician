@@ -28,7 +28,7 @@ export $(grep -v '^#' .env | xargs)   # Windows PowerShell: load the variables m
 uvicorn main:app --reload
 ```
 
-Open http://127.0.0.1:8000
+
 
 ## Configuration
 
